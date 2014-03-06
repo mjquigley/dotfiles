@@ -1,0 +1,61 @@
+{
+ "autoExpand" : false,
+ "batchSize" : 50,
+ "connections" : [
+  {
+   "connectionName" : "Local DB",
+   "credentials" : [
+    {
+     "databaseName" : "admin",
+     "enabled" : false,
+     "userName" : "",
+     "userPassword" : ""
+    }
+   ],
+   "defaultDatabase" : "",
+   "serverHost" : "localhost",
+   "serverPort" : 27017,
+   "sshAuthMethod" : 0,
+   "sshHost" : "",
+   "sshPassphrase" : "",
+   "sshPort" : 22,
+   "sshPrivateKey" : "",
+   "sshPublicKey" : "",
+   "sshUserName" : "",
+   "sshUserPassword" : "",
+   "sslEnabled" : false,
+   "sslPemKeyFile" : ""
+  },
+  {
+   "connectionName" : "Ping Dev",
+   "credentials" : [
+    {
+     "databaseName" : "admin",
+     "enabled" : false,
+     "userName" : "",
+     "userPassword" : ""
+    }
+   ],
+   "defaultDatabase" : "",
+   "serverHost" : "localhost",
+   "serverPort" : 27017,
+   "sshAuthMethod" : 1,
+   "sshHost" : "162.243.252.68",
+   "sshPassphrase" : "",
+   "sshPort" : 22,
+   "sshPrivateKey" : "",
+   "sshPublicKey" : "",
+   "sshUserName" : "dev",
+   "sshUserPassword" : "$X3non Devel",
+   "sslEnabled" : false,
+   "sslPemKeyFile" : ""
+  }
+ ],
+ "disableConnectionShortcuts" : false,
+ "loadMongoRcJs" : false,
+ "style" : "Native",
+ "timeZone" : 0,
+ "uuidEncoding" : 0,
+ "version" : "1.0",
+ "viewMode" : 1
+}
